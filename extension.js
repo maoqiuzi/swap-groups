@@ -16,6 +16,7 @@ function activate(context) {
         // The code you place here will be executed every time your command is executed
         vscode.commands.executeCommand("workbench.action.focusFirstEditorGroup");
         vscode.commands.executeCommand("workbench.action.moveActiveEditorGroupRight");
+        vscode.commands.executeCommand("workbench.action.focusFirstEditorGroup");
     });
 
     context.subscriptions.push(disposable);
